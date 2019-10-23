@@ -51,7 +51,7 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-            const someVariable=undefined;
+            var someVariable=undefined;
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof someVariable).to.equal("undefined");
@@ -135,7 +135,7 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            const object= {someProperty:1}
             ////////////////////////////////////////////////////////////////////
 
             expect(object instanceof Object).to.equal(true);
@@ -151,7 +151,7 @@ describe("basics", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             // object.someProperty is undefined...
